@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
+CLAUDE_API_KEY = os.getenv("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")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text
